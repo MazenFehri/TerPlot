@@ -1,11 +1,19 @@
-# TerPlot
+![TerPlot](images/banner.svg)
 
-Plot your data by describing it in English, from the terminal.
+![python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)
+![groq](https://img.shields.io/badge/model-Groq%20gpt--oss--120b-F55036)
+![seaborn](https://img.shields.io/badge/plots-seaborn%20%2B%20matplotlib-4C72B0)
+![pandas](https://img.shields.io/badge/data-pandas-150458?logo=pandas&logoColor=white)
+![pytest](https://img.shields.io/badge/tests-60%20passing-2EA44F?logo=pytest&logoColor=white)
+
+Describe a plot in plain English and get a PNG, from the terminal. TerPlot profiles your
+CSV or Excel file, sends that schema to an LLM on Groq, and runs the seaborn code it writes
+back in a sandboxed subprocess.
+
+**Demo:** click to play the full run — three plot requests, each PNG saved to `plots/` and
+opened in the default image viewer.
 
 [![Watch the TerPlot demo](demo-poster.png)](demo.mp4)
-
-Click to play the full run — three plot requests, each PNG saved to `plots/` and
-opened in the default image viewer.
 
 <!-- For inline playback on github.com: drag demo.mp4 into any issue comment, copy
      the https://github.com/user-attachments/assets/... URL GitHub gives back, and
