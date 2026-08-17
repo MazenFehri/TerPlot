@@ -10,10 +10,8 @@ Describe a plot in plain English and get a PNG, from the terminal. TerPlot profi
 CSV or Excel file, sends that schema to an LLM on Groq, and runs the seaborn code it writes
 back in a sandboxed subprocess.
 
-**Demo:** click to play the full run — three plot requests, each PNG saved to `plots/` and
-opened in the default image viewer.
-
-[![Watch the TerPlot demo](demo-poster.png)](demo.mp4)
+**Demo:** 
+![Demo](demo.gif)
 
 <!-- For inline playback on github.com: drag demo.mp4 into any issue comment, copy
      the https://github.com/user-attachments/assets/... URL GitHub gives back, and
